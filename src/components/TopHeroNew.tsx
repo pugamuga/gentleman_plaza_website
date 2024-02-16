@@ -44,6 +44,7 @@ function NavbarParagraph({
   return (
     <Link
       href={link}
+      passHref
       className=" cursor-pointer hover:opacity-70 relative font-main text-[40px]"
     >
       {children}
