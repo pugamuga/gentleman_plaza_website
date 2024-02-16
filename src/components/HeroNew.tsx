@@ -1,8 +1,6 @@
 "use client";
-import Image from "next/image";
-import mainDoge from "../../public/assets/doge-main.jpg";
 import Element from "./Element";
-import { ReactNode, Suspense, use, useEffect } from "react";
+import {  Suspense, useEffect } from "react";
 import ParalaxDoge from "./ParalaxDoge";
 import { Spinner } from "@material-tailwind/react";
 import { useState } from "react";

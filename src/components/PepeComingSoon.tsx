@@ -1,3 +1,5 @@
+'use client'
+
 import Pepe from "./Pepe";
 
 export default function PepeComingSoon() {

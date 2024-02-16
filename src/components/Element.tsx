@@ -1,3 +1,6 @@
+'use client'
+
+
 import React from 'react';
 import Image, { StaticImageData } from 'next/image';
 import arrowUnderPicture from '../../public/assets/elements/arrow-under-picture.png';

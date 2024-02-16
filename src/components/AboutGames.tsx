@@ -1,3 +1,4 @@
+'use client'
 import SliderGames from "./SliderGames";
 import Element from "./Element";
 

@@ -1,4 +1,7 @@
-import { Float, Html, OrbitControls } from "@react-three/drei";
+'use client'
+
+
+import { Float, Html } from "@react-three/drei";
 import Image from "next/image";
 import NFT from "../../public/assets/NFT.png";
 import glitter from "../../public/assets/glitter.gif";
@@ -7,7 +10,6 @@ export default function Ticket3d() {
   return (
     <>
       <ambientLight />
-      {/* <OrbitControls minPolarAngle={0} maxPolarAngle={Math.PI / 2.1} enableDamping={true} makeDefault/> */}
       <Float rotationIntensity={1}>
         <Html position={[0, 0, -1]} center transform>
           <Image

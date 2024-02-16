@@ -1,6 +1,5 @@
 "use client";
 import { motion as m } from "framer-motion";
-import { useEffect } from "react";
 import Pepe from "./Pepe";
 
 const LoaderScreen = ({ loadingPercentage }: any) => {

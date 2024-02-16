@@ -1,3 +1,5 @@
+'use client'
+
 import Element from "./Element"
 
 export default function ElementSeparator() {

@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import doge from "../../public/assets/paralax/doge.png";
 import bg from "../../public/assets/paralax/bg.jpg";
-import { Spinner } from "@material-tailwind/react";
 
 export default function ParallaxDoge() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });

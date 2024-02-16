@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import pepeCard from "../../public/assets/valetpepe.png";
 import dogeCard from "../../public/assets/valetdoge.png";

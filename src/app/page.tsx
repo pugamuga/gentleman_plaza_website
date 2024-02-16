@@ -1,3 +1,5 @@
+'use client'
+
 import ElementSeparator from "@/components/ElementSeparator";
 import HeroNew from "@/components/HeroNew";
 import AboutGames from "@/components/AboutGames";

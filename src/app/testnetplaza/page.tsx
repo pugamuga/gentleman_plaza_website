@@ -1,3 +1,5 @@
+'use client'
+
 import Element from "@/components/Element";
 import ElementSeparator from "@/components/ElementSeparator";
 import React from "react";
