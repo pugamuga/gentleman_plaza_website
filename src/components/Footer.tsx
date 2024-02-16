@@ -4,7 +4,7 @@ import Element from "./Element";
 
 export default function Footer() {
   return (
-    <main className="w-screen px-[10vw] font-serif hidden md:inline-block select-none">
+    <main className="w-screen px-[10vw] font-serif  select-none">
       <div className="space-y-[2px]  mt-[100px]">
         <div className="w-full h-[6px] bg-black " />
         <div className="w-full h-[2px] bg-black " />
@@ -19,7 +19,7 @@ export default function Footer() {
         >
           <Element
             name="arrow"
-            className="w-[20px] rotate-90 hover:scale-110 tr-300 cursor-pointer"
+            className="w-[20px] rotate-90 hover:scale-110 tr-300 cursor-pointer hidden md:inline-block"
           />
         </div>
         <div className="flex space-x-4 underline ">

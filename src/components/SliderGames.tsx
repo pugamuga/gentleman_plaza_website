@@ -38,7 +38,7 @@ const SliderGames: React.FC = () => {
             <Suspense
               fallback={<div className="">Loading...</div>}
             >
-              <ComingSoon />
+              <ComingSoon size={300}/>
             </Suspense>
           </div>
         </Carousel>
