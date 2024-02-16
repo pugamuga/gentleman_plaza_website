@@ -27,14 +27,6 @@ export default function Newspaper() {
           </div>
         </Suspense>
 
-        {/* <MainTextNewsPaper /> */}
-        {/* <Suspense fallback={<div className="absolute-center">Loading...</div>}>
-          <Image
-            src={shesterni}
-            alt={"roadmapgif"}
-            className="w-[300px] rotate-[90deg]"
-          />
-        </Suspense> */}
       </main>
     </>
   );
