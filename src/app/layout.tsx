@@ -2,9 +2,9 @@
 
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavbarNew from "../components/NavbarNew";
-import TopHeroNew from "@/components/TopHeroNew";
-import Footer from "@/components/Footer";
+// import NavbarNew from "../components/NavbarNew";
+// import TopHeroNew from "@/components/TopHeroNew";
+// import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,10 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavbarNew />
-        <TopHeroNew />
+        {/* <NavbarNew /> */}
+        {/* <TopHeroNew /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
