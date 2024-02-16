@@ -1,14 +1,14 @@
-'use client'
+"use client";
 import SliderGames from "./SliderGames";
 import Element from "./Element";
 
 export default function AboutGames() {
   return (
-    <main className="w-screen px-[10vw] flex justify-between">
+    <main className="w-screen px-[10vw] flex justify-center">
       <div className="flex justify-center items-center">
         <TextElementGames />
       </div>
-      <div className="px-10" />
+      <div className="px-[100px]" />
       <div>
         <SliderGames />
       </div>
@@ -19,7 +19,7 @@ export default function AboutGames() {
 function TextElementGames() {
   return (
     <>
-      <div className="h-[400px] min-w-[400px] w-full flex flex-col items-center justify-center">
+      <div className="h-[400px] w-[400px]  flex flex-col items-center justify-center">
         <LineWithText text="Our games" />
         <div className="flex justify-center items-center font-main -mt-4">
           {/* <Element name="textEl" className="w-12 " /> */}

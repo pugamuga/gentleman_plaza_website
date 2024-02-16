@@ -14,7 +14,7 @@ export default function HeroNew() {
 
   return (
     <>
-      <main className="px-[10vw] flex justify-between my-[20px] w-screen">
+      <main className="px-[10vw] flex justify-center my-[20px] w-screen">
         <div className="relative w-[400px] h-[400px] border-2 rounded-full border-black ">
           <Element
             name="photoframe"
@@ -41,8 +41,9 @@ export default function HeroNew() {
             </Suspense>
           </div>
         </div>
+        <div className="mx-[100px]"/>
         {/* here start the text block */}
-        <div className="h-[400px] text min-w-[400px] w-[600px]">
+        <div className="max-h-[400px] text min-w-[400px] w-[600px] overflow-hidden">
           <LineWithText text="LFG, Gentlemens " />
           <div className="flex justify-center items-center font-main -mt-4">
             <Element name="textEl" className="w-12 " />
@@ -52,7 +53,7 @@ export default function HeroNew() {
             </div>
             <Element name="textEl" className="w-12 scale-x-[-100%] -ml-2" />
           </div>
-          <div className="text-center">
+          <div className="text-center  ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
             expedita dicta provident, beatae quo dolores minima eius in esse
             eveniet quidem voluptate alias, labore odit. Accusamus reprehenderit
