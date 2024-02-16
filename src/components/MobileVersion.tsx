@@ -12,7 +12,7 @@ import ElementSeparator from "./ElementSeparator";
 export default function MobileVersion() {
   return (
     <>
-      <main className="test flex p-2 flex-col items-center md:hidden">
+      <main className=" flex p-2 flex-col items-center md:hidden">
         {/* logo */}
         <div className="mt-10 mb-8 ">
           <div className=" text-2xl flex flex-col items-end relative">
@@ -59,7 +59,7 @@ export default function MobileVersion() {
         </div>
         <ElementSeparator />
         <Whitelist />
-        <div className="font-serif mt-10 -mb-10">
+        <div className="font-serif mt-10 -mb-[100px]">
           P.s. for best experience use desktop version
         </div>
       </main>
@@ -70,8 +70,8 @@ export default function MobileVersion() {
 function TextBlock() {
   return (
     <>
-      <div className="test ">
-        <LineWithText text="LFG, Gentlemens " />
+      <div className=" mt-[40px]">
+        {/* <LineWithText text="LFG, Gentlemens " /> */}
         <div className="flex justify-center items-center font-main -mt-4">
           <Element name="textEl" className="w-6 " />
           <div className=" relative text-center">
@@ -93,18 +93,15 @@ function TextBlock() {
   );
 }
 
-function LineWithText({ text }: { text: string }) {
-  return (
-    <div className="w-full flex justify-between items-center font-serif mt-10">
-      <div className="bg-black h-[1px] w-full" />
-      <div className="text-sm mx-2 text-nowrap">{text}</div>
-      <div className="bg-black h-[1px] w-full" />
-    </div>
-  );
-}
-
-
-
+// function LineWithText({ text }: { text: string }) {
+//   return (
+//     <div className="w-full flex justify-between items-center font-serif mt-10">
+//       <div className="bg-black h-[1px] w-full" />
+//       <div className="text-sm mx-2 text-nowrap">{text}</div>
+//       <div className="bg-black h-[1px] w-full" />
+//     </div>
+//   );
+// }
 
 function Whitelist() {
   return (
