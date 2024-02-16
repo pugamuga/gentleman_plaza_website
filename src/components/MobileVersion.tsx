@@ -59,7 +59,7 @@ export default function MobileVersion() {
         </div>
         <ElementSeparator />
         <Whitelist />
-        <div className="font-serif mt-10 -mb-[100px]">
+        <div className="font-serif mt-[100px] -mb-[100px]">
           P.s. for best experience use desktop version
         </div>
       </main>
@@ -75,12 +75,12 @@ function TextBlock() {
         <div className="flex justify-center items-center font-main -mt-4">
           <Element name="textEl" className="w-6 " />
           <div className=" relative text-center">
-            <p className="text-[40px]">Fair gambling club</p>
-            <p className="text-[30px] mt-[-20px] "> Worked on the Blast</p>
+            <p className="text-[60px]">Fair gambling club</p>
+            <p className="text-[40px] mt-[-20px] "> Worked on the Blast</p>
           </div>
           <Element name="textEl" className="w-6 scale-x-[-100%] -ml-1" />
         </div>
-        <div className="text-center  text-sm font-serif">
+        <div className="text-center  text-sm font-serif max-w-[340px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           expedita dicta provident, beatae quo dolores minima eius in esse
           eveniet quidem voluptate alias, labore odit. Accusamus reprehenderit
