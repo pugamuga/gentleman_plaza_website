@@ -1,13 +1,13 @@
 "use client";
 import Element from "./Element";
-import {  Suspense, useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import ParalaxDoge from "./ParalaxDoge";
 import { Spinner } from "@material-tailwind/react";
 import { useState } from "react";
 
 export default function HeroNew() {
   const [showSpinnner, setShowSpinner] = useState(true);
-  
+
   useEffect(() => {
     typeof window !== "undefined" && setShowSpinner(false);
   });
@@ -41,7 +41,7 @@ export default function HeroNew() {
             </Suspense>
           </div>
         </div>
-        <div className="mx-[100px]"/>
+        <div className="mx-[100px]" />
         {/* here start the text block */}
         <div className="max-h-[400px] text min-w-[400px] w-[600px] overflow-hidden">
           <LineWithText text="LFG, Gentlemens " />
@@ -54,18 +54,11 @@ export default function HeroNew() {
             <Element name="textEl" className="w-12 scale-x-[-100%] -ml-2" />
           </div>
           <div className="text-center  ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            expedita dicta provident, beatae quo dolores minima eius in esse
-            eveniet quidem voluptate alias, labore odit. Accusamus reprehenderit
-            quisquam amet. Distinctio dolores adipisci cum quod consequatur
-            placeat facilis voluptatum ea molestias possimus! Magni ipsa in
-            neque accusamus, sequi odit consequuntur molestiae necessitatibus,
-            aut at, quos animi a nihil quis omnis enim illo. Enim deserunt, sunt
-            odit corporis magni esse, facilis illum ut ex hic veritatis ratione
-            dolorem iusto repellat doloribus nemo assumenda? Voluptatem tempore
-            repudiandae sint, deleniti ipsum, assumenda repellat facere sequi
-            dicta quod cupiditate perferendis voluptatibus maxime expedita
-            tempora nisi!
+            {`Risk, thrill, greed, smoky clubs, and the bitter taste of whiskey.
+            All this can be yours in our humble establishment. Gentlemen Plaza -
+            the leading gambling platform with zero commissions and no rake.
+            Here, games for the most esteemed degens. Join the gentlemen's club
+            for excitement, respect, and luxurious bonuses. LFG Gentlemen!`}
           </div>
         </div>
       </main>

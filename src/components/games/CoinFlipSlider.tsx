@@ -19,9 +19,7 @@ export default function CoinFlipSlider() {
       <div>
         <h1 className="text-[60px] font-main text-center">Coin Flip</h1>
         <p className="text-center">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
-          aut necessitatibus! Numquam itaque expedita tempora suscipit aliquid
-          sunt necessitatibus perferendis.
+          {`Today, are you on team "PEPE" or "DOGE"? Choose your side and try your luck with flavor.`}
         </p>
       </div>
     </main>

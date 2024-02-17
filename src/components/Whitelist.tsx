@@ -12,11 +12,10 @@ export default function Whitelist() {
               <p className="text-[60px] ">For early gentlemen</p>
             </div>
           </div>
-          <div className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            expedita dicta provident, beatae quo dolores minima eius in esse
-            eveniet quidem voluptate alias, labore odit. Accusamus reprehenderit
-            quisquam amet. Distinctio dolores adipisci cum quod consequatur
+          <div className="text-center font-serif">
+            For the swiftest access to information and seat reservations, we
+            recommend securing a place on the whitelist. Details regarding
+            closing times will soon be available on our Twitter account.
           </div>
         </div>
         <div className=" w-[400px] h-[200px] flex items-center justify-center relative">

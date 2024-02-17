@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Element from "@/components/Element";
 import ElementSeparator from "@/components/ElementSeparator";
@@ -127,7 +127,7 @@ function Table() {
 
 function MainTextTestnet() {
   return (
-    <div className="h-[400px] text min-w-[400px] w-[600px] mt-10 ">
+    <div className="h-[400px] text min-w-[400px] w-[500px] mt-10 ">
       <div className="flex justify-center items-center font-main -mt-4 ">
         <Element name="textEl" className="w-12 mr-2" />
         <div className=" relative text-center">
@@ -136,18 +136,12 @@ function MainTextTestnet() {
         </div>
         <Element name="textEl" className="w-12 scale-x-[-100%] ml-2" />
       </div>
-      <div className="text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        expedita dicta provident, beatae quo dolores minima eius in esse eveniet
-        quidem voluptate alias, labore odit. Accusamus reprehenderit quisquam
-        amet. Distinctio dolores adipisci cum quod consequatur placeat facilis
-        voluptatum ea molestias possimus! Magni ipsa in neque accusamus, sequi
-        odit consequuntur molestiae necessitatibus, aut at, quos animi a nihil
-        quis omnis enim illo. Enim deserunt, sunt odit corporis magni esse,
-        facilis illum ut ex hic veritatis ratione dolorem iusto repellat
-        doloribus nemo assumenda? Voluptatem tempore repudiandae sint, deleniti
-        ipsum, assumenda repellat facere sequi dicta quod cupiditate perferendis
-        voluptatibus maxime expedita tempora nisi!
+      <div className="text-center font-serif">
+        {`The management of our modest establishment is preparing to announce a
+        competition! The most daring and charming participants shall receive the
+        finest rewards and opportunities! The testnet will commence shortly
+        after Blast transitions to the mainnet. Prepare your eager hands, for
+        the era of web3 excitement is upon us!`}
       </div>
     </div>
   );

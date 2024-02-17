@@ -30,11 +30,10 @@ function TextElementGames() {
           {/* <Element name="textEl" className="w-12 scale-x-[-100%] -ml-2" /> */}
         </div>
         <div className="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          expedita dicta provident, beatae quo dolores minima eius in esse
-          eveniet quidem voluptate alias, labore odit. Accusamus reprehenderit
-          quisquam amet. Distinctio dolores adipisci cum quod consequatur
-          placeat facilis voluptatum ea molestias possimus! Magni ipsa in
+          {`The gentlemen's club deserves the finest, hence our games are
+          impeccably fair and boast a luxurious design that will captivate your
+          greedy soul. We value community feedback, so in the near future, we'll
+          add games that resonate with you specifically!`}
         </div>
         <Element name="photoframe" className="w-[50px] rotate-[45deg] mt-10" />
       </div>

@@ -48,17 +48,13 @@ function TextAreaNft() {
     <>
       <div className="w-1/2 flex flex-col justify-between text-center mt-10">
         <p>
-          NFT stands for non-fungible token. It is a digital asset that
-          represents ownership or proof of authenticity of a unique item or
-          piece of content. NFTs are stored on a blockchain, a distributed
-          ledger that also underpins cryptocurrencies like Bitcoin and Ethereum.
-          The blockchain allows the ownership of NFTs to be easily verified and
-          transferred between owners, making them a popular way to buy and sell
-          digital art and other collectibles.
+          {`You don your black tuxedo and exquisite hat, groom your luxurious
+          mustache, pick up your lovely lady, and head to indulge in life's
+          pleasures at the finest spot in this little web3 space. Gentlemen with
+          early access to the plaza may also enjoy some additional perks. For
+          more details on bonuses, please refer to the NFT Boutique section.`}
         </p>
       </div>
     </>
   );
 }
-
-

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import pepeCard from "../../../public/assets/valetpepe.png";
@@ -13,9 +13,9 @@ export default function HeadsUp() {
       <div>
         <h1 className="text-6xl font-main text-center">Heads Up Poker</h1>
         <p className="text-center">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
-          aut necessitatibus! Numquam itaque expedita tempora suscipit aliquid
-          sunt necessitatibus perferendis.
+         {`There's nothing more satisfying than going all in with a deuce and a
+          seven offsuit, and crushing your opponent holding two aces, by landing
+          a full house on the flop.`}
         </p>
       </div>
     </main>

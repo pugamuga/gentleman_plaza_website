@@ -60,17 +60,11 @@ function MainTextNFT() {
         <Element name="textEl" className="w-12 scale-x-[-100%] ml-2" />
       </div>
       <div className="text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        expedita dicta provident, beatae quo dolores minima eius in esse eveniet
-        quidem voluptate alias, labore odit. Accusamus reprehenderit quisquam
-        amet. Distinctio dolores adipisci cum quod consequatur placeat facilis
-        voluptatum ea molestias possimus! Magni ipsa in neque accusamus, sequi
-        odit consequuntur molestiae necessitatibus, aut at, quos animi a nihil
-        quis omnis enim illo. Enim deserunt, sunt odit corporis magni esse,
-        facilis illum ut ex hic veritatis ratione dolorem iusto repellat
-        doloribus nemo assumenda? Voluptatem tempore repudiandae sint, deleniti
-        ipsum, assumenda repellat facere sequi dicta quod cupiditate perferendis
-        voluptatibus maxime expedita tempora nisi!
+        {`Every member of our club is highly esteemed, hence, to commemorate our
+        launch, we have NFT early access tickets ready, which will grant each
+        owner a piece of our spirit, as well as a portion of the grant from the
+        BigBangCompetition. Furthermore, these NFTs will be utilized for profit
+        distribution and future token endeavors.`}
       </div>
     </div>
   );
@@ -140,13 +134,12 @@ function FAQ() {
           animate={CUSTOM_ANIMATION}
         >
           <AccordionHeader placeholder={null} onClick={() => handleOpen(1)}>
-            What is Material Tailwind?
+            What advantages does owning this NFT offer?
           </AccordionHeader>
           <AccordionBody>
-            We&apos;re not always in the position that we want to be at.
-            We&apos;re constantly growing. We&apos;re constantly making
-            mistakes. We&apos;re constantly trying to express ourselves and
-            actualize our dreams.
+            {`Owning the NFT will provide the opportunity to receive a 50% grant
+            from the Blast Competition, distribution of 75% of the protocol's
+            profits when staking the NFT, and an airdrop of tokens.`}
           </AccordionBody>
         </Accordion>
         <Accordion
@@ -155,13 +148,11 @@ function FAQ() {
           placeholder={null}
         >
           <AccordionHeader placeholder={null} onClick={() => handleOpen(2)}>
-            How to use Material Tailwind?
+            In which network can I obtain this NFT?
           </AccordionHeader>
           <AccordionBody>
-            We&apos;re not always in the position that we want to be at.
-            We&apos;re constantly growing. We&apos;re constantly making
-            mistakes. We&apos;re constantly trying to express ourselves and
-            actualize our dreams.
+            Blast L2, some ETH is required in this network for commission
+            payment on minting.
           </AccordionBody>
         </Accordion>
         <Accordion
@@ -170,13 +161,31 @@ function FAQ() {
           placeholder={null}
         >
           <AccordionHeader placeholder={null} onClick={() => handleOpen(3)}>
-            What can I do with Material Tailwind?
+            How can I reserve a spot?
+          </AccordionHeader>
+          <AccordionBody>Reserve place in whitelist</AccordionBody>
+        </Accordion>
+        <Accordion
+          open={open === 4}
+          animate={CUSTOM_ANIMATION}
+          placeholder={null}
+        >
+          <AccordionHeader placeholder={null} onClick={() => handleOpen(4)}>
+            What is the maximum number of NFTs per wallet?
+          </AccordionHeader>
+          <AccordionBody>A maximum of 10 NFTs per wallet.</AccordionBody>
+        </Accordion>
+        <Accordion
+          open={open === 5}
+          animate={CUSTOM_ANIMATION}
+          placeholder={null}
+        >
+          <AccordionHeader placeholder={null} onClick={() => handleOpen(5)}>
+            When will be the mint of collection?
           </AccordionHeader>
           <AccordionBody>
-            We&apos;re not always in the position that we want to be at.
-            We&apos;re constantly growing. We&apos;re constantly making
-            mistakes. We&apos;re constantly trying to express ourselves and
-            actualize our dreams.
+            Shortly after Blast transitions to the mainnet, stay tuned for
+            updates on our Twitter account!
           </AccordionBody>
         </Accordion>
       </ThemeProvider>

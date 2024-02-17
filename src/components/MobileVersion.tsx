@@ -81,12 +81,11 @@ function TextBlock() {
           <Element name="textEl" className="w-6 scale-x-[-100%] -ml-1" />
         </div>
         <div className="text-center  text-sm font-serif max-w-[340px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          expedita dicta provident, beatae quo dolores minima eius in esse
-          eveniet quidem voluptate alias, labore odit. Accusamus reprehenderit
-          quisquam amet. Distinctio dolores adipisci cum quod consequatur
-          placeat facilis voluptatum ea molestias possimus! Magni ipsa in neque
-          accusamus, sequi odit consequuntur molestiae necessitatibus, aut at,
+          {`Risk, thrill, greed, smoky clubs, and the bitter taste of whiskey.
+            All this can be yours in our humble establishment. Gentlemen Plaza -
+            the leading gambling platform with zero commissions and no rake.
+            Here, games for the most esteemed degens. Join the gentlemen's club
+            for excitement, respect, and luxurious bonuses. LFG Gentlemen!`}
         </div>
       </div>
     </>
@@ -114,10 +113,9 @@ function Whitelist() {
             </div>
           </div>
           <div className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            expedita dicta provident, beatae quo dolores minima eius in esse
-            eveniet quidem voluptate alias, labore odit. Accusamus reprehenderit
-            quisquam amet. Distinctio dolores adipisci cum quod consequatur
+            For the swiftest access to information and seat reservations, we
+            recommend securing a place on the whitelist. Details regarding
+            closing times will soon be available on our Twitter account.
           </div>
         </div>
         <div className=" w-[300px] h-[160px] flex items-center justify-center relative">

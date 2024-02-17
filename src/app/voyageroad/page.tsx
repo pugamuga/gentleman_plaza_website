@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Element from "../../components/Element";
 import ElementSeparator from "../../components/ElementSeparator";
@@ -36,18 +36,12 @@ function MainTextRoadMap() {
         </div>
         <Element name="textEl" className="w-12 scale-x-[-100%] ml-2" />
       </div>
-      <div className="text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        expedita dicta provident, beatae quo dolores minima eius in esse eveniet
-        quidem voluptate alias, labore odit. Accusamus reprehenderit quisquam
-        amet. Distinctio dolores adipisci cum quod consequatur placeat facilis
-        voluptatum ea molestias possimus! Magni ipsa in neque accusamus, sequi
-        odit consequuntur molestiae necessitatibus, aut at, quos animi a nihil
-        quis omnis enim illo. Enim deserunt, sunt odit corporis magni esse,
-        facilis illum ut ex hic veritatis ratione dolorem iusto repellat
-        doloribus nemo assumenda? Voluptatem tempore repudiandae sint, deleniti
-        ipsum, assumenda repellat facere sequi dicta quod cupiditate perferendis
-        voluptatibus maxime expedita tempora nisi!
+      <div className="text-center font-serif">
+        {`Our team strives to craft the finest and most captivating experience for
+        our users and club members. Though we're at the dawn of our journey,
+        we've already achieved remarkable successes. Here are our development
+        plans for the year 2024. We're set on conquering a significant share of
+        the market and the hearts of our users.`}
       </div>
     </div>
   );
@@ -80,7 +74,7 @@ function Qsection({ date, active, data }: any) {
 function TextSection({ name, data }: any) {
   return (
     <>
-      <div className="w-40 text-center text-sm h-40 flex flex-col">
+      <div className="w-40 text-center text-sm h- flex flex-col">
         <h1 className="font-main text-[40px] py-4">{name}</h1>
         <div className="w-full bg-black h-[2px]" />
         <div className="py-2">
@@ -88,7 +82,7 @@ function TextSection({ name, data }: any) {
             <>
               <section className="flex items-center space-x-2">
                 <div className="border-2 border-black min-w-2 min-h-2 rounded-full" />
-                <div className="text-start" key={i}>
+                <div className="text-start font-serif" key={i}>
                   {item}
                 </div>
               </section>
@@ -102,34 +96,34 @@ function TextSection({ name, data }: any) {
 
 const data = {
   Q42023: {
-    Community: ["Dardfsdf sdfsd dsfs df ssdfsdf sdf s sdf sdfsdffa", "Newgdk"],
-    Development: [],
-    Grow: [],
-    Infrastructure: [],
+    Community: ["Gathering feedback from the gambling community"],
+    Development: ["Commencement of work on initial games","Website creation"],
+    Grow: ["Engagement with influencers", "Marketing strategy development"],
+    Infrastructure: ["Concept development", "Market research"],
   },
   Q12024: {
-    Community: [],
-    Development: [],
-    Grow: [],
-    Infrastructure: [],
+    Community: ["Whitelist launch","Testnet for early users","Freemint for the community","Community building"],
+    Development: ["Completion of development and initiation of testing for the first 3 games","Website launch"],
+    Grow: ["Participation in the Blast competition"],
+    Infrastructure: ["Testnet with prizes"],
   },
   Q22024: {
-    Community: [],
-    Development: [],
-    Grow: [],
-    Infrastructure: ["dfgjlsdfgl"],
+    Community: ["Airdrop for the community"],
+    Development: ["Addition of 2 new games and closed testnet for them","Website and application update, enhancing UI/UX"],
+    Grow: ["AMA sessions","Smart contract audit and security checks"],
+    Infrastructure: ["Integration and partnerships with new DeFi protocols on Blast"],
   },
   Q32024: {
-    Community: [],
-    Development: [],
-    Grow: [],
-    Infrastructure: [],
+    Community: ["Competitions for users"],
+    Development: ["Mechanic updates and refinement of existing games"],
+    Grow: ["Partnerships and investments for the token","Increase liquidity pool","Collaboration with top influencers in the gambling industry"],
+    Infrastructure: ["Creation of the first slot machines on web3 and API for developers"],
   },
   Q42024: {
-    Community: [],
-    Development: [],
-    Grow: [],
-    Infrastructure: [],
+    Community: ["Community sale","Next season tournament for the community","Poker tournament"],
+    Development: ["Slot machine presentation","Telegram bot"],
+    Grow: ["TGE (Token Generation Event)"],
+    Infrastructure: ["Positive rake for token stakers"],
   },
 };
 
